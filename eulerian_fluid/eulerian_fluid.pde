@@ -330,10 +330,10 @@ void keyPressed() {
   if (key == 'f') {
     frames = !frames;
   }
-  if (key == 'g') {
+  else if (key == 'g') {
     grid = !grid;
   }
-  if (key == 'c') {
+  else if (key == 'c') {
     pretty_colors = !pretty_colors;
   } else {
     pause = !pause;
